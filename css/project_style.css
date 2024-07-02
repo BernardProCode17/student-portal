@@ -1,0 +1,97 @@
+/* index page style*/
+.account-link {
+   color: blue;
+   text-decoration: none;
+   display: block;
+   margin-top: 1rem;
+}
+
+.account-link:hover {
+   color: rgba(0, 0, 255, 0.388);
+   text-decoration: underline;
+}
+
+/* Register page */
+
+
+/* table page */
+.main-table {
+   padding: 0%;
+}
+
+.welcome-msg{
+padding: 0.3rem;
+}
+
+.link{
+   display: block;
+   color: blue;
+   margin-bottom: 1rem;
+   text-decoration: none;
+}
+.link:hover {
+   color: rgba(0, 0, 255, 0.518);
+}
+
+.table {
+   margin: 0rem auto;
+   
+   & tbody {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      flex-wrap: wrap;
+      border: 3px solid grey;
+      width: 100%;
+
+
+      & tr {
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         padding: 0.1rem;
+         & th {
+            padding: 0.3rem;
+            background-color: lightslategray;
+            color: aliceblue;
+            flex-grow: 1;
+            & a {
+               color: #FFF;
+            }
+
+            & a:hover {
+               color: blue;
+            }
+         }
+
+         & td {
+            font-size: 1rem;
+            border: 1px solid lightslategray;
+            border-radius: 0.1875rem;
+            width: auto;
+            flex-grow: 2;
+            margin: 0.3rem;
+
+            & a {
+               color: rgb(34, 140, 246);
+            }
+
+            & a:hover {
+               color: blue;
+            }
+
+         }
+
+      }
+   }
+}
+
+.recordinfo {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: max-content;
+   margin: 1rem auto;
+}

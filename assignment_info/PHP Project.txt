@@ -1,0 +1,47 @@
+PHP Project
+
+view the current state of the student table in a database, add, update and remove record from the database
+ - display the table from the database
+ - make a query for adding to the table
+ - make a query for deleeting from the table
+ - make a query to update a record in the tables
+
+The index.php should have the student table display as a html table
+- include 2 additional cell per row with the delete and update link for the record row
+- the delete and update link should send record-specific information via the GET query string to a seperate scripting page for updating and deleting the from the table
+-
+
+Database Operations
+ - write scripts for handling each basic database operations
+ - display page for the add students - a form with id name and input inputs
+ - display page for deleting records - display the selected records for deletion, and give an comfirmation box if the user wants to delete the record, with a yes or no and send button
+ - display a page for updating the records - display a form with the id and name field pre-populated, and a send button to update the record
+
+scripting behaviour
+- forward the user back to the page with the table and the update records
+- always provide feedback to the user as they interact with the table
+- validate all form data to protect against SQL injection attacks
+
+additional information
+- use sessions and functions to perform the actions 
+- add a login and logout page and functionality, to sign the user in
+- (optional) Add a register users page for the user to sign up and use the page. 
+
+DUE sunday at 12:30AM
+
+
+Start
+   - start with the login page
+      - check if the user is in the database and log them in
+      - use session to store the users name and display it on the table age
+   - Make a the tables page with the student table displayed
+    - add a link to the tables page to add new student to the table
+    - add a delete and update link in the table for each record
+   - make the processing and display page for each operation
+    - make the form that links to the processing page for that form
+    - forward the user back to the tables pages after processing
+    - add a feedback message with the form process so the user can know what happen after entering the information 
+    - prevent sql injects on each form when processing
+   - make a logout page to log the user out
+      - prevent the user from going back to the login area and rediect them to the login page to access the site again
+      
