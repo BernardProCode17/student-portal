@@ -34,7 +34,7 @@ session_destroy();
       ?>
    </div>
 
-      <a href="../index.php" class='link'>Login</a>
+      <a href="index.php" class='link'>Login</a>
 
    </main>
 

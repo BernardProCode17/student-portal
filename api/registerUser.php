@@ -54,7 +54,7 @@ require_once 'variables.php';
 
       </form>
 
-      <a href="../index.php" class='account-link'>Login</a>
+      <a href="index.php" class='account-link'>Login</a>
 
    </main>
 
